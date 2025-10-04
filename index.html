@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Russian Roulette — Browser Edition</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Russian Roulette — Browser Edition</h1>
+    <div id="controls">
+      <button id="btn-pull">Pull Trigger</button>
+      <button id="btn-chance">Draw Chance Card ($100)</button>
+      <button id="btn-new">New Game</button>
+    </div>
+
+    <div id="game-area">
+      <div id="players"></div>
+      <div id="log" class="card"></div>
+    </div>
+
+    <div id="status" class="card"></div>
+
+    <footer>
+      <small>Winner gets $1,000 fake money. Chance card costs $100 — outcomes: Skip turn, Shoot another player, Shoot yourself twice.</small>
+    </footer>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
